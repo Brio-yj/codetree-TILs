@@ -7,6 +7,6 @@ int main() {
     cin>>a;
     string b;
     cin>>b;
-    cout<<a<<"\n"<<b<<"\n";
+    cout<<b<<"\n"<<a<<"\n";
     return 0;
 }
