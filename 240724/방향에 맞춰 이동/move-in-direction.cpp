@@ -13,17 +13,18 @@ int main() {
     for(int i=0;i<N;i++){
         char ch;
         int num;
-        if(ch=="N"){
+        cin>>ch>>num;
+        if(ch=='N'){
             x+=dx[2];
             y+=dy[2]*num;
         }
-        if(ch=="E"){
+        if(ch=='E'){
             x+=dx[1]*num;
             y+=dy[1];
-        }if(ch=="S"){
+        }if(ch=='S'){
             x+=dx[3];
             y+=dy[3]*num;
-        }if(ch=="E"){
+        }if(ch=='E'){
             x+=dx[1]*num;
             y+=dy[1];
         }
