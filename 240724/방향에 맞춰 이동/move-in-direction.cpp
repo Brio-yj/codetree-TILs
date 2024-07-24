@@ -14,17 +14,17 @@ int main() {
         char ch;
         int num;
         cin>>ch>>num;
-        if(ch=='N'){
+        if(ch=='S'){
             x+=dx[2];
             y+=dy[2]*num;
         }
         if(ch=='E'){
             x+=dx[1]*num;
             y+=dy[1];
-        }if(ch=='S'){
+        }if(ch=='N'){
             x+=dx[3];
             y+=dy[3]*num;
-        }if(ch=='E'){
+        }if(ch=='w'){
             x+=dx[1]*num;
             y+=dy[1];
         }
