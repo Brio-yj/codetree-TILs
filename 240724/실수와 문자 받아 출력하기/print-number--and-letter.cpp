@@ -10,7 +10,7 @@ int main() {
     double b;
     cin>>b;
     cout<<fixed;
-    cout.precision(3);
+    cout.precision(2);
     cout<<c<<"\n"<<a<<"\n"<<b;
     return 0;
 }
