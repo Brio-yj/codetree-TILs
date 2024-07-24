@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    string a, b, c;
+    int a, b, c;
 	char d;
 
 	cin >> a;
@@ -11,6 +11,6 @@ int main() {
 	cin >> b;
 	cin.get();
 	cin >> c;
-	cout << a << "-" << c << "-" << b;
+	cout <<"0"<< a << "-" << c << "-" << b;
     return 0;
 }
