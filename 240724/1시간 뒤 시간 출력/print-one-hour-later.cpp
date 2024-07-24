@@ -8,6 +8,6 @@ int main() {
 	cin.get();
 	cin >> b;
     if(a==24)a=0;
-	cout << a+1 << endl << b;
+	cout << a+1 <<" "<< b;
     return 0;
 }
