@@ -25,7 +25,7 @@ int main() {
             x+=dx[3];
             y+=dy[3]*num;
         }if(ch=='w'){
-            x+=dx[1]*num;
+            x+=dx[0]*num;
             y+=dy[1];
         }
     }
