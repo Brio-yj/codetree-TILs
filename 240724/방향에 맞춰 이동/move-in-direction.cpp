@@ -26,7 +26,7 @@ int main() {
             y+=dy[3]*num;
         }if(ch=='w'){
             x+=dx[0]*num;
-            y+=dy[1];
+            y+=dy[0];
         }
     }
     cout<<x<<" "<<y;
