@@ -10,6 +10,6 @@ int main() {
 	cin >> b;
 	cin.get();
 	cin >> c;
-	cout << a << "." << b << ". "<< c;
+	cout << c << "." << a << ". "<< b;
     return 0;
 }
